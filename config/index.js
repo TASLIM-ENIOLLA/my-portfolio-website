@@ -5,7 +5,7 @@ export const SERVER = {
 		URL: (
 			(dev)
 			? 'http://localhost:3014/'
-			: 'http://unknown/'
+			: 'https://taslim-eniolla.vercel.app/'
 		)
 	},
 	BACKEND: {
