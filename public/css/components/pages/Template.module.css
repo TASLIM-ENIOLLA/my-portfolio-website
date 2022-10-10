@@ -1,0 +1,10 @@
+.vertical_line{
+    height: 150px;
+    width: 2px;
+}
+.vertical_rl{
+    writing-mode: vertical-rl;
+}
+.rigid_height{
+    height: calc(100vh - 77px)
+}

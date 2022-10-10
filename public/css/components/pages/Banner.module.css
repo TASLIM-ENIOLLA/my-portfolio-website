@@ -1,0 +1,10 @@
+.py4rem{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.fo_s_by_width{
+    line-height: 100%;
+}
+.min_height{
+    min-height: calc(100vh - 61px);
+}

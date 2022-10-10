@@ -1,0 +1,213 @@
+@import url("./bootstrap.css");
+@import url("../font-awesome/css/font-awesome.css");
+@import url("../b-icon/css/bootstrap-icons.css");
+@import url("../animate/animate.css");
+@import url("./common.css");
+
+:root{
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100,255,218,0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --fz-xxs: 12px;
+    --fz-xs: 13px;
+    --fz-sm: 14px;
+    --fz-md: 16px;
+    --fz-lg: 18px;
+    --fz-xl: 20px;
+    --fz-xxl: 22px;
+    --fz-heading: 32px;
+    --border-radius: 4px;
+    --nav-height: 100px;
+    --nav-scroll-height: 70px;
+    --tab-height: 42px;
+    --tab-width: 120px;
+    --easing: cubic-bezier(0.645,0.045,0.355,1);
+    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    --hamburger-width: 30px;
+    --ham-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
+    --ham-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
+    --ham-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
+    --ham-after-active: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
+}
+
+.text-blue{
+    color: #007bff;
+}
+.bg-blue{
+    background: #007bff;
+}
+.bg-dark-navy{
+    background: var(--dark-navy);
+}
+.bg-lightest-navy{
+    background: var(--lightest-navy);
+}
+.bg-navy{
+    background: var(--navy);
+}
+.text-indigo{
+    color: #6610f2;
+}
+.bg-indigo{
+    background: #6610f2;
+}
+.text-purple{
+    color: #6f42c1;
+}
+.bg-purple{
+    background: #6f42c1;
+}
+.text-pink{
+    color: #e83e8c;
+}
+.bg-pink{
+    background: #e83e8c;
+}
+.text-red{
+    color: #dc3545;
+}
+.bg-red{
+    background: #dc3545;
+}
+.text-orange{
+    color: #fd7e14;
+}
+.bg-orange{
+    background: #fd7e14;
+}
+.text-yellow{
+    color: #ffc107;
+}
+.bg-yellow{
+    background: #ffc107;
+}
+.text-green{
+    color: #28a745;
+}
+.bg-green{
+    background: #28a745;
+}
+.text-teal{
+    color: #20c997;
+}
+.bg-teal{
+    background: #20c997;
+}
+.text-cyan{
+    color: #17a2b8;
+}
+.bg-cyan{
+    background: #17a2b8;
+}
+.text-white{
+    color: #fff;
+}
+.bg-white{
+    background: #fff;
+}
+.text-gray{
+    color: #6c757d;
+}
+.bg-gray{
+    background: #6c757d;
+}
+.text-gray-dark{
+    color: #343a40;
+}
+.bg-gray-dark{
+    background: #343a40;
+}
+.text-primary{
+    color: #007bff;
+}
+.bg-primary{
+    background: #007bff;
+}
+.text-secondary{
+    color: #6c757d;
+}
+.bg-secondary{
+    background: #6c757d;
+}
+.text-success{
+    color: #28a745;
+}
+.bg-success{
+    background: #28a745;
+}
+.text-info{
+    color: #17a2b8;
+}
+.bg-info{
+    background: #17a2b8;
+}
+.text-warning{
+    color: #ffc107;
+}
+.bg-warning{
+    background: #ffc107;
+}
+.text-danger{
+    color: #dc3545;
+}
+.bg-danger{
+    background: #dc3545;
+}
+.text-light{
+    color: #cccccc;
+}
+.bg-light{
+    background: #cccccc;
+}
+.text-dark{
+    color: #343a40;
+}
+.bg-dark{
+    background: #343a40;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 20px;
+    background: var(--theme-color);
+}
+
+body{
+    background: var(--navy);
+    color: var(--light);
+    font-size: 12px;
+}
+*{
+    color: inherit;
+    font-size: inherit;
+}
+.list-links{
+    counter-reset: item;
+}
+.list-links > a[href^="#"]::before{
+    counter-increment: item;
+    content: "0" counter(item) ".";
+    margin-right: 5px;
+    color: var(--theme-color);
+    text-align: right;
+}
+.heavy{
+    line-height: 100%;
+}
