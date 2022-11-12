@@ -107,7 +107,7 @@ function LeftContactLink(){
             <a target = '_blank' href = 'https://twitter.com/@MusaAzeezDFirst' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-twitter fo-s-16'></span>
             </a>
-            <a target = '_blank' href = '' className = 'd-block mb-4 transit'>
+            <a target = '_blank' href = 'https://www.linkedin.com/in/taslim-musa-azeez-746105226/' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-linkedin fo-s-16'></span>
             </a>
             <a target = '_blank' href = 'mailto://taslim.eniolla@gmail.com' className = 'd-block mb-4 transit'>
