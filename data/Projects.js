@@ -3,6 +3,14 @@ import {SERVER} from '/config'
 export const ProjectsData = [
     {
         title: "standalone project",
+        name: "Sally Hostel",
+        description: "A web app for Nigerian university students where they can create account and get to see hostels available for rent/lease",
+        tags: ['Next JS', 'PHP', 'MySQL'],
+        link: "https://passion-for-peace.vercel.app/",
+        project_image: `${SERVER.FRONTEND.URL}images/projects/sallyhostels.vercel.app_.png`
+    },
+    {
+        title: "standalone project",
         name: "Passion for Peace Initiative Grant",
         description: "A grant website for a Nigerian based NGO, which focuses on youth empowerment as a means to achieve the Sustainable Developement Goals",
         tags: ['Next JS', 'PHP', 'MySQL'],
