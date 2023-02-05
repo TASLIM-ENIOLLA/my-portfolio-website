@@ -5,19 +5,19 @@ export default function Footer(){
                 <div className = 'row pt-5'>
                     <div className = 'col-auto mx-auto'>
                         <div className = 'd-md-none flex-h a-i-c mb-4'>
-                            <a href = 'https://github.com/TASLIM-ENIOLLA' className = 'd-block mx-3 transit'>
+                            <a target = '_blank' href = 'https://github.com/TASLIM-ENIOLLA' className = 'd-block mx-3 transit'>
                                 <span className = 'bi bi-github fo-s-16'></span>
                             </a>
-                            <a href = '' className = 'd-block mx-3 transit'>
-                                <span className = 'bi bi-instagram fo-s-16'></span>
+                            <a target = '_blank' href = 'https://facebook.com/musaazeez.taslim' className = 'd-block mx-3 transit'>
+                                <span className = 'bi bi-facebook fo-s-16'></span>
                             </a>
-                            <a href = '' className = 'd-block mx-3 transit'>
+                            <a target = '_blank' href = 'https://twitter.com/musaazeezd1st' className = 'd-block mx-3 transit'>
                                 <span className = 'bi bi-twitter fo-s-16'></span>
                             </a>
-                            <a href = '' className = 'd-block mx-3 transit'>
+                            <a target = '_blank' href = 'https://www.linkedin.com/in/taslim-musa-azeez-746105226/' className = 'd-block mx-3 transit'>
                                 <span className = 'bi bi-linkedin fo-s-16'></span>
                             </a>
-                            <a href = 'mailto://taslim.eniolla@gmail.com' className = 'd-block mx-3 transit'>
+                            <a target = '_blank' href = 'mailto://taslim.eniolla@gmail.com' className = 'd-block mx-3 transit'>
                                 <span className = 'bi bi-at fo-s-16'></span>
                             </a>
                         </div>
