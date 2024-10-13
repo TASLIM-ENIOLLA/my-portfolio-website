@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "consolab";
+	src: url("/fonts/Consolab/consolab.ttf");
+}
+
+* {
+	font-size: .90rem;
+}
+
+body {
+	@apply bg-background pb-20;
+}
+
+.consolab {
+	font-family: "consolab";
+}
+
+.num-links {
+	counter-reset: list-counter;
+}
+
+.num-links > a {
+  position: relative;
+	counter-increment: list-counter;
+}
+
+.num-links > a::before {
+  font-weight: bold;
+	font-size: inherit;
+  margin-right: .7rem;
+	display: inline-block;
+	content: "0" counter(list-counter) ". ";
+}
+
+.one-line {
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
